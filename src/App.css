@@ -1,0 +1,150 @@
+.App {
+  margin-top: 100px;
+  border-radius: 29px;
+  width: 452px;
+  height: 300px;
+  background-image: url("https://uc27ee32efebf699236a6533e690.previews.dropboxusercontent.com/p/thumb/AAfd_sQZwXnhgM9jGviEIgyz2_unmFY_-iHiuMgPl3gDFECcfaev3NsCrP9gioH7-jyeScxJMcTKE9w__P2jYLmStebOgD_If2-1SQv-92h9P0LTfxSxCpp9j8CtTwo6G5PdNp-deNmYRXIfjqfSu5QWPdjCx10nKl68GpuZsvw5O17NHG5qli77EJNuQCKpqEg5_IsxGwn275LUv7G8C5r9AJbetK-d6NmFGCDas7hOsDpYw5jU4DjaLYURB2xbiOg7UgJITdKBHLr3CjQRNkwrsXZ2EuIPySJWnG6-eESOXYjDlVtFbmccUQXJ_6b1_XYgmcypsw5Fcqbh2DUi1e7lBSIDN2ythpJ2tROqn_dTVfSYVu-1Gmn0L-TfGf-Zo10/p.jpeg?fv_content=true&size_mode=5");
+  position: relative;
+}
+
+.credit{
+  margin-left: 160px; 
+  position:absolute;
+  top:10px;
+  color: white;
+  font-size: 33px;
+  font-family:Arial BLACK, Helvetica, sans-serif;
+}
+
+.puc{
+  margin-top: 70px; 
+  margin-left: 30px;
+  border-radius: 12px;
+  width: 18%;
+}
+
+.num{
+ color : #EFF49F;
+ font-size:22px;
+ letter-spacing: 4px;
+ margin-top:15px;
+ margin-left:30px;
+ font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.num{
+  color : #EFF49F;
+  font-size:22px;
+  letter-spacing: 3px;
+  margin-top:15px;
+  margin-left:30px;
+  width: 305px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: rgba(255, 255, 0, 0.226);
+ }
+
+ .num1{
+   color:white;
+  font-size:22px;
+  margin-top:15px;
+  margin-left:30px;
+  width: 325px;
+  font-family: arial;
+ }
+
+ .visa{
+   position:absolute;
+   width: 16%;
+   top:165px;
+   right: 15px;
+ }
+ .month{
+   color: white;
+   position:absolute;
+   bottom: 100px;
+   right: 120px;
+   font-size: 8px;
+ }
+
+ .valid{
+   color: white;
+   position: absolute;
+   right: 180px;
+   bottom: 75px;
+   font-size: 60%;
+ }
+
+ .triangle-3 {
+   width: 5rem;
+  border-left: solid 5px white;
+  border-bottom: solid 5px transparent;
+  border-top: solid 5px transparent;
+  position: absolute;
+  bottom: 80px;
+  right: 95px;
+}
+
+.date{
+  color:white;
+  font-size: 26px;
+  font-family: arial;
+  position: absolute;
+  bottom: 70px;
+  right: 112px;
+}
+
+.soc{
+  color: white;
+  margin-top: 6px;
+  margin-left: 30px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif bold;
+  font-size: 20px;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.form{
+  display: flex;
+}
+
+.input{
+  display: flex;
+  flex-direction : column;
+  align-content:space-around;
+  padding-top:180px;
+  padding-left: 20px;
+}
+
+input{
+  padding-top:10px;
+  margin-top:10px;
+  width: 300px; 
+}
